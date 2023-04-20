@@ -237,10 +237,6 @@ function App() {
           </s.TextTitle>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-//          <s.Container flex={1} jc={"center"} ai={"center"}>
-//            <StyledImg alt={"example"} src={"/config/images/page_dao_member_2022_silver.png"} />
-//          </s.Container>
-//          <s.SpacerLarge />
           <s.Container
             flex={2}
             jc={"center"}
@@ -253,6 +249,7 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+            <StyledImg alt={"example"} src={"/config/images/page_dao_member_2022_silver.png"} />
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -263,7 +260,6 @@ function App() {
             >
               Silver: {data.silverSupply} / {CONFIG.SILVER_MAX_SUPPLY} Total
             </s.TextTitle>
-            <StyledImg alt={"example"} src={"/config/images/page_dao_member_2022_silver.png"} />
             <s.TextDescription
               style={{
                 textAlign: "center",
@@ -384,6 +380,7 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+            <StyledImg alt={"example"} src={"/config/images/page_dao_member_2022_diamond.png"} />
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -501,15 +498,6 @@ function App() {
             )}
             <s.SpacerMedium />
           </s.Container>
-
-
-//          <s.SpacerLarge />
-//          <s.Container flex={1} jc={"center"} ai={"center"}>
-//            <StyledImg
-//              alt={"example"}
-//              src={"/config/images/page_dao_member_2022_diamond.png"}
-//            />
-//          </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
