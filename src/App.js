@@ -237,28 +237,7 @@ function App() {
           </s.TextTitle>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-          <s.Container
-            flex={2}
-            jc={"center"}
-            ai={"center"}
-            style={{
-              backgroundColor: "var(--accent)",
-              padding: 24,
-              borderRadius: 24,
-              border: "4px dashed var(--secondary)",
-              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
-            }}
-          >
-
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--accent-text)",
-              }}
-            >
-              <s.Container flex={1} jc={"center"} ai={"center"}>
+          <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/page_dao_member_2022_silver.png"} />
           </s.Container>
           <s.SpacerLarge />
@@ -274,6 +253,14 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--accent-text)",
+              }}
+            >
               Silver: {data.silverSupply} / {CONFIG.SILVER_MAX_SUPPLY} Total
             </s.TextTitle>
             <s.TextDescription
@@ -404,12 +391,6 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/page_dao_member_2022_diamond.png"}
-            />
-          </s.Container>
               Diamond: {data.diamondSupply} / {CONFIG.DIAMOND_MAX_SUPPLY} Total
             </s.TextTitle>
             <s.TextDescription
@@ -522,7 +503,12 @@ function App() {
 
 
           <s.SpacerLarge />
-          
+          <s.Container flex={1} jc={"center"} ai={"center"}>
+            <StyledImg
+              alt={"example"}
+              src={"/config/images/page_dao_member_2022_diamond.png"}
+            />
+          </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
