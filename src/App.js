@@ -249,7 +249,7 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
-            <StyledImg alt={"example"} src={"/config/images/page_dao_member_2022_silver.png"} />
+
             <s.TextTitle
               style={{
                 textAlign: "center",
