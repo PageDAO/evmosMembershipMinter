@@ -263,6 +263,7 @@ function App() {
             >
               Silver: {data.silverSupply} / {CONFIG.SILVER_MAX_SUPPLY} Total
             </s.TextTitle>
+            <StyledImg alt={"example"} src={"/config/images/page_dao_member_2022_silver.png"} />
             <s.TextDescription
               style={{
                 textAlign: "center",
